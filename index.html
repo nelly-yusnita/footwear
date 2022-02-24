@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- ===== FAVICON ==== -->
+	<link rel="shortcut icon" href="assets/img/fitur3.png" type="image/x-icon">
+
+	<!-- ===== MAIN CSS ==== -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- ===== BOXICONS ===== -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+	<!-- ===== SWIPER CSS ===== -->
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+	<!-- ===== AOS ANIMATE CSS ===== -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<title>FOOTWEAR</title>
+</head>
+<body>
+	<!-- ===== HEADER ===== -->
+	<header class="header" id="header">
+		<nav class="nav container">
+			<div class="hamburger__nav" id="menu-button">
+				<span class="hamburger__top"></span>
+				<span class="hamburger__middle"></span>
+				<span class="hamburger__bottom"></span>
+			</div>
+
+			<a href="#" class="nav__logo">Footwear</a>
+
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#home" class="nav__link active-link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="#products" class="nav__link">Products</a>
+					</li>
+					<li class="nav__item">
+						<a href="#about" class="nav__link">About</a>
+					</li>
+					<li class="nav__item">
+						<a href="#bestsellers" class="nav__link">Best</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="nav__shopping-bag" id="cart-shop">
+				<i class='bx bx-shopping-bag'></i>
+			</div>
+		</nav>
+	</header>
+	<!-- ===== end header ===== -->
+
+	<!-- ===== CART ===== -->
+	<div class="cart" id="cart">
+		<i class='bx bx-x cart__close' id="cart-close"></i>
+
+		<h2 class="cart__title-center">My Cart</h2>
+
+		<div class="cart__container grid">
+			<!-- 1 -->
+			<article class="cart__card">
+				<div class="cart__box">
+					<img src="assets/img/bestseller1.png" alt="" class="cart__img">
+				</div>
+
+				<div class="cart__details">
+					<h3 class="cart__title">Butterfly Moes</h3>
+					<span class="cart__price">$59.00</span>
+
+					<div class="cart__amount">
+						<div class="cart__amount-content">
+							<span class="cart__amount-box">
+								<i class='bx bx-minus' ></i>
+							</span>
+							<span class="cart__amount-number">1</span>
+							<span class="cart__amount-box">
+								<i class='bx bx-plus' ></i>
+							</span>
+						</div>
+						<i class='bx bx-trash-alt cart__amount-trash' ></i>
+					</div>
+				</div>
+			</article>
+
+			<!-- 2 -->
+			<article class="cart__card">
+				<div class="cart__box">
+					<img src="assets/img/bestseller2.png" alt="" class="cart__img">
+				</div>
+
+				<div class="cart__details">
+					<h3 class="cart__title">Freewill Warriors</h3>
+					<span class="cart__price">$59.00</span>
+
+					<div class="cart__amount">
+						<div class="cart__amount-content">
+							<span class="cart__amount-box">
+								<i class='bx bx-minus' ></i>
+							</span>
+							<span class="cart__amount-number">1</span>
+							<span class="cart__amount-box">
+								<i class='bx bx-plus' ></i>
+							</span>
+						</div>
+						<i class='bx bx-trash-alt cart__amount-trash' ></i>
+					</div>
+				</div>
+			</article>
+
+			<!-- 3 -->
+			<article class="cart__card">
+				<div class="cart__box">
+					<img src="assets/img/bestseller4.png" alt="" class="cart__img">
+				</div>
+
+				<div class="cart__details">
+					<h3 class="cart__title">Stilletoe Heels</h3>
+					<span class="cart__price">$59.00</span>
+
+					<div class="cart__amount">
+						<div class="cart__amount-content">
+							<span class="cart__amount-box">
+								<i class='bx bx-minus' ></i>
+							</span>
+							<span class="cart__amount-number">1</span>
+							<span class="cart__amount-box">
+								<i class='bx bx-plus' ></i>
+							</span>
+						</div>
+						<i class='bx bx-trash-alt cart__amount-trash' ></i>
+					</div>
+				</div>
+			</article>
+		</div>
+
+		<div class="cart__prices">
+			<span class="cart__prices-item">3 items</span>
+			<span class="cart__prices-total">$2880</span>
+		</div>
+	</div>
+	<!-- ===== end cart ===== -->
+
+	<!-- ===== MAIN ===== -->
+	<main class="main">
+		<!-- ===== HOME ===== -->
+		<section class="home" id="home">
+			<div class="home__container container">
+				<div class="home__data">
+					<span class="home__subtitle" data-aos="fade-down">NEW ARRIVAL</span>
+					<h1 class="home__title" data-aos="fade-down" data-aos-delay="50">Flawless You</h1>
+					<a href="#" class="button button--white" data-aos="fade-down" data-aos-delay="100">SHOP NOW</a>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end home ===== -->
+
+		<!-- ===== PRODUCTS ===== -->
+		<section class="products section container" id="products">
+			<div class="products__container grid">
+				<div class="product__box">
+					<img src="assets/img/heels.jpg" alt="" class="product__img">
+
+					<div class="product__data">
+						<h2 class="product__title">Heels</h2>
+						<a href="#" class="button--link">SHOP NOW</a>
+					</div>
+				</div>
+
+				<div class="product__box">
+					<img src="assets/img/sandals.jpg" alt="" class="product__img">
+
+					<div class="product__data">
+						<h2 class="product__title">Sandals</h2>
+						<a href="#" class="button--link">SHOP NOW</a>
+					</div>
+				</div>
+
+				<div class="product__box">
+					<img src="assets/img/flats.jpg" alt="" class="product__img">
+
+					<div class="product__data">
+						<h2 class="product__title">Flats</h2>
+						<a href="#" class="button--link">SHOP NOW</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end products ===== -->
+
+		<!-- ===== FITUR ===== -->
+		<section class="fitur section container" id="about">
+			<h2 class="section__title">Classy Since Birth</h2>
+
+			<div class="fitur__container grid">
+				<div class="fitur__content">
+					<div class="fitur__img">
+						<img src="assets/img/fitur1.png" alt="">
+					</div>
+					<h3 class="fitur__title">EXCLUSIVE STYLE ONLY</h3>
+					<span class="fitur__description">We offer customers with style that is customed exclusively for a target group.</span>
+				</div>
+				<div class="fitur__content">
+					<div class="fitur__img">
+						<img src="assets/img/fitur2.png" alt="">
+					</div>
+					<h3 class="fitur__title">SECOND TO NONE</h3>
+					<span class="fitur__description">The quality of all products we release is highly guaranteed to be second to none.</span>
+				</div>
+				<div class="fitur__content">
+					<div class="fitur__img">
+						<img src="assets/img/fitur3.png" alt="">
+					</div>
+					<h3 class="fitur__title">MADE BY YOU</h3>
+					<span class="fitur__description">It’s not an option, it’s a suggestion for you to further develop your own style.</span>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end fitur ===== -->
+
+		<!-- ===== BEST SELLERS ===== -->
+		<section class="bestsellers section" id="bestsellers">
+			<div class="container">
+				<h2 class="section__title">Best Sellers</h2>
+
+				<div class="bestsellers__container grid">
+					<div class="bestseller__content">
+						<div class="bestseller__img">
+							<img src="assets/img/bestseller1.png" alt="">
+						</div>
+						<h3 class="bestseller__name">Butterfly Moes</h3>
+						<span class="bestseller__price">$59.00</span>
+					</div>
+					<div class="bestseller__content">
+						<div class="bestseller__img">
+							<img src="assets/img/bestseller2.png" alt="">
+						</div>
+						<h3 class="bestseller__name">Freewill Warriors</h3>
+						<span class="bestseller__price">$59.00</span>
+					</div>
+					<div class="bestseller__content">
+						<div class="bestseller__img">
+							<img src="assets/img/bestseller3.png" alt="">
+						</div>
+						<h3 class="bestseller__name">Panther Fan</h3>
+						<span class="bestseller__price">$59.00</span>
+					</div>
+					<div class="bestseller__content">
+						<div class="bestseller__img">
+							<img src="assets/img/bestseller4.png" alt="">
+						</div>
+						<h3 class="bestseller__name">Stilletoe Heels</h3>
+						<span class="bestseller__price">$59.00</span>
+					</div>
+				</div>
+
+				<a href="#" class="button button--black" data-aos="fade-down">ALL PRODUCTS</a>
+			</div>
+		</section>
+		<!-- ===== end best sellers ===== -->
+
+		<!-- ===== BANNER ==== -->
+		<section class="banner section">
+			<div class="banner__container grid">
+				<div class="banner__img" data-aos="zoom-in-right">
+					<img src="assets/img/banner_img.jpg" alt="">
+				</div>
+				<div class="banner__data container" data-aos="zoom-in-left">
+					<span class="banner__subtitle">FALL/WINTER 2022</span>
+					<h2 class="banner__title">Be your own Queen<br>the reigning monarch.</h2>
+					<p class="banner__description">No one can take the crown from you<br>heads up and stand proud to your crowd.</p>
+					<a href="#" class="button button--black">SHOP NOW</a>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end banner ===== -->
+
+		<!-- ===== TESTIMONIAL ===== -->
+		<section class="testimonial section container">
+			<h2 class="section__title">The reviews are in</h2>
+
+			<div class="testimonial__container swiper" data-aos="fade-down">
+				<div class="swiper-wrapper">
+					<!-- Testimonial 1 -->
+					<div class="testimonial__content swiper-slide">
+						<div class="testimonial__box">
+							<img src="assets/img/testi1.png" alt="" class="testimonial__img">
+							<div class="testimonial__data">
+								<h3 class="testimonial__name">Lee Bui</h3>
+								<span class="testimonial__job">(Designer)</span>
+
+								<div class="testimonial__stars">
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+								</div>
+
+								<p class="testimonial__description">I just wanted to thank you for the impeccable service from you and your staff. I will always look forward to shopping at your store. Thanks for your products.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 2 -->
+					<div class="testimonial__content swiper-slide">
+						<div class="testimonial__box">
+							<img src="assets/img/testi2.png" alt="" class="testimonial__img">
+							<div class="testimonial__data">
+								<h3 class="testimonial__name">Lee Bui</h3>
+								<span class="testimonial__job">(Designer)</span>
+
+								<div class="testimonial__stars">
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star-half testimonial__icon-star' ></i>
+								</div>
+
+								<p class="testimonial__description">I just wanted to thank you for the impeccable service from you and your staff. I will always look forward to shopping at your store. Thanks for your products.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 3 -->
+					<div class="testimonial__content swiper-slide">
+						<div class="testimonial__box">
+							<img src="assets/img/testi3.png" alt="" class="testimonial__img">
+							<div class="testimonial__data">
+								<h3 class="testimonial__name">Lee Bui</h3>
+								<span class="testimonial__job">(Designer)</span>
+
+								<div class="testimonial__stars">
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+								</div>
+
+								<p class="testimonial__description">I just wanted to thank you for the impeccable service from you and your staff. I will always look forward to shopping at your store. Thanks for your products.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 4 -->
+					<div class="testimonial__content swiper-slide">
+						<div class="testimonial__box">
+							<img src="assets/img/testi4.png" alt="" class="testimonial__img">
+							<div class="testimonial__data">
+								<h3 class="testimonial__name">Lee Bui</h3>
+								<span class="testimonial__job">(Designer)</span>
+
+								<div class="testimonial__stars">
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bxs-star testimonial__icon-star' ></i>
+									<i class='bx bx-star testimonial__icon-star' ></i>
+								</div>
+
+								<p class="testimonial__description">I just wanted to thank you for the impeccable service from you and your staff. I will always look forward to shopping at your store. Thanks for your products.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Pagination -->
+				<div class="swiper-pagination swiper-pagination-testimonial"></div>
+			</div>
+		</section>
+
+		<!-- ===== NEWSLETTER ===== -->
+		<section class="newsletter section container">
+			<h2 class="section__title">Join our clan, save for more.</h2>
+			<span class="newsletter__subtitle" data-aos="fade-down">Get $25 off of your first purchase and be the first to know about product launches, events, and so much more.</span>
+
+			<form action="" class="newsletter__form grid" data-aos="fade-down" data-aos-delay="100">
+				<input type="text" class="newsletter__input" placeholder="Enter your email">
+				<a href="#" class="button newsletter__button">SUSCRIBE</a>
+			</form>
+		</section>
+		<!-- ===== end newsletter ===== -->
+
+		<!-- ===== CONTACT ===== -->
+		<section class="contact container" id="contact">
+			<div class="contact__container grid">
+				<div class="contact__box">
+					<i class='bx bx-phone contact__icon'></i>
+
+					<div class="contact__data">
+						<h3 class="contact__title">Phone:</h3>
+						<span class="contact__info">Mobile 999-888-777</span>
+						<span class="contact__info">Fax 999 888 777</span>
+					</div>
+				</div>
+
+				<div class="contact__box">
+					<i class='bx bx-home contact__icon' ></i>
+
+					<div class="contact__data">
+						<h3 class="contact__title">Address:</h3>
+						<span class="contact__info">No 40 Ismud Street</span>
+						<span class="contact__info">Medan, Indonesia</span>
+					</div>
+				</div>
+
+				<div class="contact__box">
+					<i class='bx bx-envelope contact__icon' ></i>
+
+					<div class="contact__data">
+						<h3 class="contact__title">Email:</h3>
+						<span class="contact__info">footwear@gmail.com</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end contact ===== -->
+	</main>
+	<!-- ===== end main ===== -->
+
+	<!-- ===== FOOTER ===== -->
+	<footer class="footer">
+		<div class="footer__container container grid">
+			<div class="footer__content">
+				<ul class="footer__social">
+					<a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+						<i class='bx bxl-facebook'></i>
+					</a>
+
+					<a href="https://twitter.com/" target="_blank" class="footer__social-link">
+						<i class='bx bxl-twitter' ></i>
+					</a>
+
+					<a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+						<i class='bx bxl-instagram' ></i>
+					</a>
+				</ul>
+			</div>
+
+			<img src="assets/img/fitur3.png" alt="" class="footer__logo">
+
+			<span class="footer__copy">&#169;2022. Footwear. All rigths reserved</span>
+		</div>
+	</footer>
+	<!-- ===== end footer ===== -->
+
+	<!-- ===== SCROLL UP ===== -->
+	<a href="#" class="scrollup" id="scroll-up">
+		<i class='bx bx-up-arrow-alt scrollup__icon'></i>
+	</a>
+	<!-- ===== end scroll up ===== -->
+
+	<!-- ===== SWIPER JS ===== -->
+	<script src="assets/js/swiper-bundle.min.js"></script>
+
+	<!-- ===== AOS ANIMATE JS ===== -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	
+	<!-- ===== MAIN JS ===== -->
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
